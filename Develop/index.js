@@ -6,17 +6,17 @@ const questions = [
     {
         type:'input',
         name:'name',
-        message:'what is your name?'
+        message:'What is your name?'
     },
     {
         type:'input',
         name:'email',
-        message:'what is your email address?'
+        message:'What is your email address?'
     },
     {
         type:'input',
         name:'projectName',
-        message:"what is your project's name?"
+        message:"What is your project's name?"
     },
     {
         type:'input',
@@ -26,7 +26,7 @@ const questions = [
     {
         type:'input',
         name:'userName',
-        message:'what is your GitHub user name?'
+        message:'What is your GitHub user name?'
     },
     {
         type:'list',
@@ -53,7 +53,7 @@ const questions = [
     {
         type:'input',
         name:'test',
-        message:'What command should be run to tests?',
+        message:'What command should be run to test?',
         default:['npm test']
     }
 
@@ -74,14 +74,14 @@ function writeToFile(data) {
     let usageData = `## Usage:\n\n${data.repo1}\n\n\n`
     
     let contributingData = `## Contributing:\n\n${data.repo2}\n\n\n`
-    let licenseData = `## License\n\nThis project is licensed uder the ${data.license} license.\n\n\n`
+    let licenseData = `## License:\n\nThis project is licensed under the ${data.license} license.\n\n\n`
     
-    let testData = `## Tests\n\nTo run tests, run the following command\n\n\n 
+    let testData = `## Tests:\n\nTo run tests, run the following command:\n\n\n 
     ${data.test}
 
     \n\n\n`
     
-    let questionData = `## Questions\n\nIf you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.userName}](https://github.com/${data.userName})`
+    let questionData = `## Questions:\n\nIf you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.userName}](https://github.com/${data.userName}).`
    
    
    
