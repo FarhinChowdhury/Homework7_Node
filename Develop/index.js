@@ -6,7 +6,7 @@ const questions = [
     {
         type:'input',
         name:'name',
-        message:'what is your user name?'
+        message:'what is your name?'
     },
     {
         type:'input',
@@ -26,7 +26,7 @@ const questions = [
     {
         type:'input',
         name:'userName',
-        message:'what is your user name?'
+        message:'what is your GitHub user name?'
     },
     {
         type:'list',
@@ -114,7 +114,6 @@ async function main() {
         description:setup.description, userName:setup.userName, 
         repo1: setup.usingRepo, repo2: setup.contributingRepo,install:setup.install,test:setup.test, license:choice})
 
-    console.log(userList)
 
     //calling writetoFile to write the file with the information from userList.
     //since userList is an object with in array have to call userList[0].
