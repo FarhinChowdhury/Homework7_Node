@@ -9,7 +9,7 @@ by: Farhin Chowdhury
  This homework I used javascript and node modules to generate a README file. This program takes user input and creates a professional README file.
 
 
- ![screenshot](/Develop/ScreenShot.png)
+ ![screenshot](/image/screenshot.png)
 
 
 ## Table of Content:
