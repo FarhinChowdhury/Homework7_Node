@@ -32,7 +32,7 @@ const questions = [
         type:'list',
         name:'license',
         message:'What kind of license should your project have?',
-        choices:['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'NONE']
+        choices:['MIT', 'Apache', 'GPLv3', 'ISC', 'GNU']
     },
     {
         type:'input',
@@ -66,7 +66,7 @@ let userList =[]
 // function to write README file
 
 function writeToFile(data) {
-    let descriptionData = `## Description:\n ${data.description}\n\n\n`  
+    let descriptionData = `## Description:\n![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg "License Badge")\n\n ${data.description}\n\n\n`  
     let tableofConents = `## Table of Content:\n\n* [Installation](*installation)\n* [Usage](#usage)\n* [License](#license)\n* [Contributing](#contributing)\n* [Tests](#tests)\n* [Questions](#questions)\n\n\n`
     let installData = `## Installation:\n\n To install necessary dependencies, run the following command:\n\n\n
     ${data.install}\n\n\n`
