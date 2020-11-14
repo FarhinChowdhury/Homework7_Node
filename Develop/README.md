@@ -1,4 +1,4 @@
-# Homework6_WeatherApp
+# Note Taker
 by: Farhin Chowdhury
 
 
@@ -8,7 +8,7 @@ by: Farhin Chowdhury
 ## Description:
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg "License Badge")
 
- Create a webpage that will showcase the weather of any city being searched for the current day and for 5 concequtive days after. All the weather information that were used were acquired from OpenWeather APIs. 
+ Note Taker is a website that will allow the user to write, save, edit and delete written notes.
 
 
 ## Table of Content:
@@ -58,4 +58,4 @@ To run tests, run the following command:
 
 ## Questions:
 
-If you have any questions about the repo, open an issue or contact me directly at farhinchowdhury0@gmail.com. You can find more of my work at [FarthinChowdhury](https://github.com/FarthinChowdhury).
+If you have any questions about the repo, open an issue or contact me directly at farhinchowdhury0@gmail.com. You can find more of my work at [FarhinChowdhury](https://github.com/FarhinChowdhury).
